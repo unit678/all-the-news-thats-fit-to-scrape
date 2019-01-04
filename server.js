@@ -13,7 +13,7 @@ var request = require("request");
 
 var Note = require("./models/Note");
 var Article = require("./models/Article");
-var databaseUrl = 'mongodb://localhost/scrap';
+var databaseUrl = 'mongodb://heroku_1l1jhkz0:8uncp9ls1ml4kqliq8f8adjlbh@ds215502.mlab.com:15502/heroku_1l1jhkz0';
 
 if (process.env.MONGODB_URI) {
     mongoose.connect(process.env.MONGODB_URI);
